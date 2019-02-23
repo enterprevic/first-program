@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+// Program to calculate your age
+
+public class HelloWorld {
+	
+	static Scanner userInput = new Scanner(System.in);
+	public static void main(String[] args) {
+		  
+      {	
+			System.out.print("Input your date of birth:");
+			if (userInput.hasNextLong())
+		
+				{
+					  int Year = (int) userInput.nextLong();
+					  System.out.println("You have Entered Year: " + Year);
+					
+					  int Year1 = 2019 - Year;
+					  System.out.println("Your current age is: " + 2019 + " - " + Year + " = " + Year1);
+
+			}
+		}
+	}
+}
